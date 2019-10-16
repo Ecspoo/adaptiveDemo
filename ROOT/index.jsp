@@ -1,4 +1,4 @@
-<%@ pageEncoding="utf-8" %>
+<%@ page pageEncoding="utf-8" %>
 <html>
 	<head>
 	<title>demo</title>

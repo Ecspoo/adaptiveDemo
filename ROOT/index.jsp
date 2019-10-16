@@ -9,6 +9,6 @@
 			out.println("Hello World!"); 
 		%>
 		</p>
-		<p href = "demo.jsp">点我！！</p>
+		<a href = "demo.jsp">点我！！</a>
 	</body>
 <html>

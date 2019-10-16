@@ -1,0 +1,175 @@
+.ziti {
+	font-family: "微软雅黑";
+	font-size: 15px;
+	color: #FFF;
+	text-align: center;
+}
+.song {
+	font-family: "宋体";
+	font-size: 15px;
+	color: #FFF;
+	text-align: right;
+}
+.song12 {
+	font-family: "宋体";
+	font-size: 12px;
+	color: #4c4c4c;
+	text-align: center;
+}
+
+.yahei {
+	font-family: "微软雅黑";
+	font-size: 18px;
+	color: #148800;
+	font-weight: bold;
+}
+.neiwen1 {
+	font-family: "宋体";
+	font-size: 14px;
+	color: #3d413b;
+	line-height: 20px;
+	text-align: center;
+}
+.neiwen2 {
+	font-family: "宋体";
+	font-size: 13.5px;
+	color: #3d413b;
+	line-height: 20px;
+	text-align: left;
+	font-weight: normal;
+}
+.neiwen3 {
+	font-family: "宋体";
+	font-size: 14px;
+	color: #db8b00;
+	line-height: 20px;
+	text-align: left;
+}
+.ditu1 {
+	background-image: url(ping0025.jpg);
+	background-position: top;
+	background-repeat: repeat-x;
+}
+.neiwen4 {
+	font-family: "宋体";
+	font-size: 14px;
+	color: #3d413b;
+	text-align: left;
+	height: 30px;
+	padding: 1px;
+	line-height: 150%;
+}
+.song12-tu {
+	font-family: "宋体";
+	font-size: 12px;
+	color: #4c4c4c;
+	text-align: center;
+	background-image: url(ping0029.jpg);
+	background-repeat: repeat-x;
+	background-position: left bottom;
+}
+.neiwen5 {
+	font-family: "宋体";
+	font-size: 14px;
+	color: #3d413b;
+	line-height: 20px;
+	text-align: center;
+}
+.neiwen6 {
+	font-family: "宋体";
+	font-size: 14px;
+	color: #3d413b;
+	text-align: center;
+	font-weight: bold;
+	line-height: 20px;
+	vertical-align: middle;
+}
+.neiwen7 {
+	font-family: "宋体";
+	font-size: 13.5px;
+	color: #db8b00;
+	line-height: 20px;
+	text-align: left;
+}
+.dengluditu {
+	background: url(ping0042.jpg);
+	background-size:cover;
+	background-repeat: no-repeat;
+	height: 208px;
+	width: 247px;
+	border-radius:25px;
+}
+.song12C {
+	font-family: "宋体";
+	font-size: 12px;
+	color: #4c4c4c;
+	text-align: center;
+	font-weight: bold;
+}
+.neiwen8 {
+	font-family: "宋体";
+	font-size: 12.5px;
+	color: #3d413b;
+	line-height: 19px;
+	text-align: left;
+	font-weight: normal;
+}
+.neiwen9 {
+	font-family: "宋体";
+	font-size: 12.5px;
+	color: #db8b00;
+	line-height: 19px;
+	text-align: left;
+}
+.song12a {
+	font-family: "宋体";
+	font-size: 13px;
+	color: #4c4c4c;
+	text-align: center;
+	line-height: 150%;
+}
+.ditu2 {
+	background-image: url(ping0046.jpg);
+	background-position: top;
+	background-repeat: repeat-x;
+}
+.yahei2 {
+	font-family: "微软雅黑";
+	font-size: 16px;
+	color: #148800;
+	font-weight: bold;
+}
+.yahei3 {
+	font-family: "微软雅黑";
+	font-size: 20px;
+	color: #148800;
+	font-weight: bold;
+}
+.neiwen10 {
+	font-family: "宋体";
+	font-size: 14px;
+	color: #3d413b;
+	height: 25px;
+	text-align: center;
+}
+.biankuang1 {
+	height: 109px;
+	width: 109px;
+	border-top-style: 1;
+	border-right-style: 1;
+	border-bottom-style: 1;
+	border-left-style: 1;
+	border-top-color: #ebeff2;
+	border-right-color: #ebeff2;
+	border-bottom-color: #ebeff2;
+	border-left-color: #ebeff2;
+	padding: 1px;
+}
+.neiwen10 {
+	font-family: "宋体";
+	font-size: 14px;
+	color: #3d413b;
+	text-align: center;
+	line-height: 20px;
+	height: 20px;
+}

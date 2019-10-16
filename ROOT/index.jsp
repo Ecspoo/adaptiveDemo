@@ -9,6 +9,6 @@
 			out.println("Hello World!"); 
 		%>
 		</p>
-		<a href = "demo.jsp">点我！！</a>
+		<a href = "中国农业大学校内平台.jsp">点我！！</a>
 	</body>
 <html>

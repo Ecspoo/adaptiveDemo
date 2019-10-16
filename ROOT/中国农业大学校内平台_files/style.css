@@ -1,0 +1,139 @@
+html, body, th, td, dl, dt, dd, ul, ol, li, form, textarea, input, select {
+	margin: 0;
+	padding: 0;
+	font: 12px Arial, Helvetica, sans-serif;
+}
+img, body, html {
+	border: 0;
+}
+img, input, select, button {
+	vertical-align: middle;
+}
+a {
+	color: #336;
+	outline: none;
+	text-decoration: none;
+}
+a:hover {
+	color: #f00;
+	text-decoration: underline;
+}
+dl, ul, li {
+	list-style: none;
+}
+input {
+	padding: 1px;
+}
+fieldset {
+	border: 1px solid #999;
+}
+th, td {
+	vertical-align: top;
+}
+body {
+}
+.clearFix {
+	overflow: hidden;
+	zoom: 1;
+}
+#container {
+	margin: 0 auto;
+	width: 988px;
+	font: 12px Arial, Helvetica, sans-serif;
+}
+/***---------------------------------------------------------------------
+ *  头部
+ *-----------------------------------------------------------------------*/
+.flr{
+	float:right;
+}
+.header{
+	background:url(../cauimages/ping0007.jpg);
+	width:100%;
+	font-weight:bold;
+}
+.help a{
+	margin-right:5px;
+}
+.tophead{
+	min-width:1000px;
+	width:90%;
+	margin:0 auto;
+	line-height:31px;
+	text-align: center;
+}
+
+.itopbanner{
+	background:url(../cauimages/ping0037.jpg);
+}
+.itopbanner  .topimgspace{
+	min-width:1000px;
+	width:1000px;
+	margin:0 auto;
+	text-align:center;
+}
+
+.inavigation{
+	width:100%;
+	background:url(../cauimages/ping0012.jpg);
+	height:44px;
+}
+.inavigation a{ font-family:"微软雅黑";}
+ul.imenus{
+/*	min-width:1000px;*/
+	width:1200px;
+	margin:0 auto;
+}
+.imenus{ padding-left:70px;}
+.imenus li{ display:inline;}
+.imenus li a{ float:left;
+	padding:12px 22px;
+	font-size:15px;
+	color:#fff;
+	font-weight: bold;
+}
+.imenus li a:hover{
+	background:url(../cauimages/ping0056.jpg);
+}
+
+
+/***---------------------------------------------------------------------
+ *  主体部分
+ *-----------------------------------------------------------------------*/
+.mainbody{
+	margin: 0 auto;
+	min-width:1000px;
+	width:1000px;
+	margin-top:20px;
+	border:0;
+}
+.col-right, .col-left{} 
+.col-left{ padding-right:20px; width:248px;}
+.col-right{ padding-left:20px; width:248px;}
+.col-mid{}
+.formdenglu{
+	background-image: url("../cauimages/ping0042.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 208px;
+    width: 247px;
+	margin: 0 0 20px 0;
+}
+.btn{
+	width:100px;
+	border: none;
+	height:33px;
+}
+.sbmt{
+	background:url(../cauimages/ping0043a.png) no-repeat;
+}
+.helpbtn{
+	background:url(../cauimages/ping0043a.png) no-repeat;
+}
+#TabbedPanels2{ margin-top:20px;}
+.TabbedPanelsTabGroup{
+}
+.bmtab{
+	margin:0 auto;
+	width:1000px;
+}

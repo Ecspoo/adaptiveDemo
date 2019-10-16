@@ -1,0 +1,117 @@
+
+<!-- saved from url=(0109)https://authserver.cau.edu.cn/authserver/login?display=basic&service=http://my.cau.edu.cn/casLoginSuccess.jsp -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link href="./login-basic.css" rel="stylesheet">
+<style>html, * {-webkit-user-select:text!important; -moz-user-select:text!important;}</style><style type="text/css">#htmlToothbrush #bodyToothbrush .parentToothbrush .bilibili-player-video {margin:0 !important;}
+#htmlToothbrush, #bodyToothbrush {overflow:hidden !important;zoom:100% !important;}
+#htmlToothbrush #bodyToothbrush .parentToothbrush {overflow:visible !important;z-index:auto !important;transform:none !important;-webkit-transform-style:flat !important;transition:none !important;contain:none !important;}
+#htmlToothbrush #bodyToothbrush .absoluteToothbrush {position:absolute !important;}
+#htmlToothbrush #bodyToothbrush .playerToothbrush {position:fixed !important;top:0px !important;left:0px !important;width:100vw !important;height:100vh !important;max-width:none !important;max-height:none !important;min-width:0 !important;min-height:0 !important;margin:0 !important;padding:0 !important;z-index:2147483647 !important;border:none !important;background-color:#000 !important;transform:none !important;}
+#htmlToothbrush #bodyToothbrush .parentToothbrush video {object-fit:contain !important;}
+#htmlToothbrush #bodyToothbrush .parentToothbrush .videoToothbrush {width:100vw !important;height:100vh !important;}
+#playerControlBtn {text-shadow: none;visibility:hidden;opacity:0;display:none;transition: all 0.5s ease;cursor: pointer;font: 12px "微软雅黑";margin:0;width:64px;height:20px;line-height:20px;border:none;text-align: center;position: fixed;z-index:2147483647;background-color: #27A9D8;color: #FFF;} #playerControlBtn:hover {visibility:visible;opacity:1;background-color:#2774D8;}
+#picinpicBtn {text-shadow: none;visibility:hidden;opacity:0;display:none;transition: all 0.5s ease;cursor: pointer;font: 12px "微软雅黑";margin:0;width:53px;height:20px;line-height:20px;border:none;text-align: center;position: fixed;z-index:2147483647;background-color: #27A9D8;color: #FFF;} #picinpicBtn:hover {visibility:visible;opacity:1;background-color:#2774D8;}
+#leftFullStackButton{display:none;position:fixed;width:1px;height:100vh;top:0;left:0;z-index:2147483647;background:#000;}
+#rightFullStackButton{display:none;position:fixed;width:1px;height:100vh;top:0;right:0;z-index:2147483647;background:#000;}</style></head><body>
+<div>
+    <form id="casLoginForm" role="form" action="https://authserver.cau.edu.cn/authserver/login?display=basic&amp;service=http://my.cau.edu.cn/casLoginSuccess.jsp" method="post">
+        <div id="loginBasicHead" class="bh-card bh-card-lv1 defaultcard ">
+            
+            <p id="title" class="title" style="display: none"></p>
+            <!--<div class="header font-css-color">
+                <p>账号登录</p>
+            </div>
+			-->
+            <div>
+                <div class="bh-form-horizontal  bh-form-lg">
+                    <div class="bh-row">
+                        <div class="bh-form-group bh-required" id="usernameControl">
+                            <i class="basic-auth-icon basic-auth-icon-user"></i>
+                            <input id="username" name="username" placeholder="工/学号" class="bh-form-control" type="text" value="">
+                        </div>
+                    </div>
+                    <div class="bh-row">
+                        <div class="bh-form-group bh-required" id="passwordControl">
+                            <i class="basic-auth-icon basic-auth-icon-pwd"></i>
+                            <input id="password" name="password" placeholder="密码" class="bh-form-control" type="password" value="" autocomplete="off">
+                        </div>
+                    </div>
+                    <div>
+                        <p id="cpatchaDiv">
+                        </p>
+                    </div>
+					
+					<!--
+					
+					<div>
+						<p style="text-align: center;height:30px;">
+						    <a style="text-decoration: none;color: #000;position: relative;display: inline-block;width: 100px;text-align: left;" href="combinedLogin.do?type=qq&amp;success=http://authserver.cau.edu.cn:80/authserver/login?service=http://my.cau.edu.cn/" target="_blank"><img style="width: 20px;margin-right: 8px;" src="/authserver/custom/images/qq.png" /><span style="position:absolute;top: 2px;">QQ登录</span></a>
+						    <a style="text-decoration: none;color: #000;position: relative;display: inline-block;width: 100px;text-align: left;" href="combinedLogin.do?type=weixin&success=http://authserver.cau.edu.cn:80/authserver/login?service=http://my.cau.edu.cn/" target="_blank"><img style="width: 20px;margin-right: 8px;" src="/authserver/custom/images/weixin.png" /><span style="position:absolute;top: 2px;">微信登录</span></a>
+						</p>
+						</div>
+						
+				    -->
+					
+                    
+                        <div class="bh-row">
+                            <div class="bh-form-group">
+                                <div class="bh-checkbox font-css-color">
+                                    <label>
+                                        <input type="checkbox" name="rememberMe" id="rememberMe">
+                                        <i id="bh-choice-helper-id" class="bh-choice-helper"></i>
+                                        一周内免登陆
+                                    </label>
+									<a id="getBackPasswordMainPage" href="https://authserver.cau.edu.cn/authserver/getBackPasswordMainPage.do" target="_blank" class="auth_login_forgetp">
+                                    <label>忘记密码？</label>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    
+                    <input type="hidden" name="lt" value="LT-729557-7FGaAntWB3smgVe25vKxkTkgaTBczN1571192613910-Br6z-cas">
+                    <input type="hidden" name="dllt" value="userNamePasswordLogin">
+                    <input type="hidden" name="execution" value="e2s1">
+                    <input type="hidden" name="_eventId" value="submit">
+                    <input type="hidden" name="rmShown" value="1">
+                </div>
+            </div>
+            <div class="footer">
+                <button type="submit" class="bh-btn bh-btn-primary bh-btn-block">登录</button>
+            </div>
+        </div>
+    </form>
+
+</div>
+
+<div class="bh-row" id="hidenCaptchaDiv" style="display: none">
+    <div class="bh-form-group bh-required yanzhengma" id="captchaControl">
+        <input type="text" class="bh-form-control" style="width: 116px;" placeholder="验证码" id="captchaResponse" name="captchaResponse">
+    </div>
+    <img id="captchaImg" class="basic-captcha-img" src="./captcha.html" alt="验证码" title="验证码">
+    <i class="basic-auth-icon basic-auth-icon-captcha" style="cursor: pointer;" id="changeCaptcha"></i>
+</div>
+
+<script type="text/javascript" src="./jquery.min.js.下载"></script>
+
+
+<!--[if lt IE 9]>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("#bh-choice-helper-id").remove();
+    });
+</script>
+<![endif]-->
+
+<script type="text/javascript" src="./login-basic.js.下载"></script>
+
+
+
+
+
+
+
+    
+    
+    
+    
+
+<tbdiv id="picinpicBtn"></tbdiv><tbdiv id="playerControlBtn"></tbdiv><tbdiv id="leftFullStackButton"></tbdiv><tbdiv id="rightFullStackButton"></tbdiv></body></html>
